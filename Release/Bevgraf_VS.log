@@ -1,0 +1,30 @@
+﻿Build started 2013.10.06. 12:20:35.
+     1>Project "D:\PROG\Bevgraf_VS\Bevgraf_VS.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ID:\PROG\Bevgraf_VS\include /ID:\PROG\Bevgraf_VS\lib /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt HelloOpenGL.cpp
+         HelloOpenGL.cpp
+     1>HelloOpenGL.cpp(38): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>HelloOpenGL.cpp(54): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>HelloOpenGL.cpp(56): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>HelloOpenGL.cpp(64): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>HelloOpenGL.cpp(67): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>HelloOpenGL.cpp(90): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>HelloOpenGL.cpp(92): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>HelloOpenGL.cpp(100): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>HelloOpenGL.cpp(103): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>HelloOpenGL.cpp(112): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>HelloOpenGL.cpp(179): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>HelloOpenGL.cpp(180): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>HelloOpenGL.cpp(231): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>HelloOpenGL.cpp(242): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>HelloOpenGL.cpp(243): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\PROG\Bevgraf_VS\Release\Bevgraf_VS.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\PROG\Bevgraf_VS\lib /LIBPATH:MainCRTStartup kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\PROG\Bevgraf_VS\Release\Bevgraf_VS.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\PROG\Bevgraf_VS\Release\Bevgraf_VS.lib" /MACHINE:X86 /SAFESEH Release\HelloOpenGL.obj
+         Generating code
+         Finished generating code
+         Bevgraf_VS.vcxproj -> D:\PROG\Bevgraf_VS\Release\Bevgraf_VS.exe
+     1>Done Building Project "D:\PROG\Bevgraf_VS\Bevgraf_VS.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.39

@@ -1,0 +1,20 @@
+﻿Build started 9/18/2013 1:57:54 PM.
+     1>Project "C:\Documents and Settings\hallgato\Desktop\Bevgraf_VS\Bevgraf_VS.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Bevgraf_VS.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\Bevgraf_VS.unsuccessfulbuild".
+         Touching "Debug\Bevgraf_VS.lastbuildstate".
+     1>Done Building Project "C:\Documents and Settings\hallgato\Desktop\Bevgraf_VS\Bevgraf_VS.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.06
