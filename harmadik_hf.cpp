@@ -165,6 +165,32 @@ void processMouse( GLint button, GLint action, GLint xMouse , GLint yMouse ) {
 			dragged = i;
 	if ( button == GLUT_LEFT_BUTTON && action == GLUT_UP  )
 		dragged = -1;
+	if ( button == GLUT_LEFT_BUTTON && action == GLUT_DOWN )
+	{
+		if( (winHeight - yMouse) <= 50+10 && (winHeight - yMouse) >= 50-10 )
+		{
+			if(xMouse>750)
+			{
+				Points[1].x = 750;
+				radLong = ((Points[1].x-50) / 700)*100*M_PI;
+				glutPostRedisplay();
+				return;
+			}
+			else if(xMouse<50)
+			{
+				Points[1].x=50;
+				radLong=0;
+				movingCircle->midPoint.x=centerCircle->midPoint.x+centerCircle->Radius+movingCircle->Radius;
+				movingCircle->midPoint.y=centerCircle->midPoint.y;
+				movingCircle->CalcCirclePoints();
+				glutPostRedisplay();
+				return;
+			}
+			Points[1].x = xMouse;
+			radLong = ((Points[1].x-50) / 700)*100*M_PI;
+			glutPostRedisplay();
+		}
+	}
 }
 
 void processMouseActiveMotion( GLint xMouse, GLint yMouse ) {
